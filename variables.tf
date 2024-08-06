@@ -10,7 +10,7 @@ variable "region" {
 variable "cluster_name" {
   description = "Cluster name"
   type = string
-  default = "scoutflo-assignment"
+  default = "scoutflo-assignment-test"
 }
 
 variable "instance_type" {
