@@ -16,7 +16,7 @@ variable "cluster_name" {
 variable "instance_type" {
   description = "Instance Type"
   type = string
-  default = "t2.medium"
+  default = "t3.medium"
 }
 
 variable "min_size" {
